@@ -136,7 +136,7 @@ body{
  border: solid #3A4C5C;
  background-color: black;
  padding: 5px;
- margin:0% 20% 0% 35%;
+ margin:0% 20% 0% 30%;
 
 }
 
@@ -159,7 +159,7 @@ body{
  margin:0% 15% 0% 25%;
  
 }
-.newdiv p{
+.newdiv  p{
 	font-size: 10pt;
 }
 
