@@ -34,6 +34,7 @@ body{
  box-shadow: 0px -3px 8px 2px gray;
  background-color: black;
  border-radius: 10px;
+ border: solid #3A4C5C;
  padding: 5px;
  margin:0px 500px 0px 540px;
  font-family: 'Libre Baskerville', serif;
@@ -132,18 +133,14 @@ body{
 #time{
  font-size: 20px;
  box-shadow: 0px -3px 8px 2px gray;
+ border: solid #3A4C5C;
  background-color: black;
  padding: 5px;
  margin:0% 20% 0% 35%;
 
 }
 
-.profile{
- width:50%;
- height:50%;
- border-radius:100%;
- 
-}
+
 
 .info h3{
 
@@ -176,5 +173,7 @@ body{
  height: 40%;
 }
 }
+
+
 
 
