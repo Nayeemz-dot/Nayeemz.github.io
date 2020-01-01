@@ -1,175 +1,180 @@
 body{
-	   margin:0px;
-	   background-color:white;
-	} 
+	margin:0px;
+	background-color:white;
+ } 
 
 .head h1{
-          text-align:center;
-          Background-image:url("bannerf.png");
-          Background-size:cover;
-		  background-repeat:no-repeat;
-		  height:150px;
-          margin:0px;
-          padding:30px;
-          text-shadow:4px 4px 4px gray;
-          color:ivory ; 
-		 
-   }
+	   text-align:center;
+	   Background-image:url("bannerf.png");
+	   Background-size:cover;
+	   background-repeat:no-repeat;
+	   height:150px;
+	   margin:0px;
+	   padding:30px;
+	   text-shadow:4px 4px 4px gray;
+	   color:ivory ; 
+	  
+}
 
 .info{
-	   box-shadow:0px 3px 5px 5px gray;
-	   text-align:center;
-	   padding:50px;
-	   Background-color:#fff;
-	   margin:0px 500px 0px 500px;
-	   font-family: 'Dancing Script', cursive;
-	   
-	   
-	  }
+	box-shadow:0px 3px 5px 5px gray;
+	text-align:center;
+	padding:50px;
+	Background-color:#fff;
+	margin:0px 500px 0px 500px;
+	font-family: 'Dancing Script', cursive;
+	
+	
+   }
 #time{
-	text-align: center;
-	color:rgb(233, 7, 7);
-	font-size: 40px;
-	font-weight: bold;
-	box-shadow: 0px -3px 8px 2px gray;
-	background-color: black;
-	border-radius: 10px;
-	padding: 5px;
-	margin:0px 500px 0px 540px;
-	font-family: 'Libre Baskerville', serif;
+ text-align: center;
+ color:rgb(233, 7, 7);
+ font-size: 40px;
+ font-weight: bold;
+ box-shadow: 0px -3px 8px 2px gray;
+ background-color: black;
+ border-radius: 10px;
+ padding: 5px;
+ margin:0px 500px 0px 540px;
+ font-family: 'Libre Baskerville', serif;
 }
 .profile{
-          width:150px;
-          height:150px;
-          border-radius:100px;
-          border:2px solid lightseagreen;
-         }
+	   width:150px;
+	   height:150px;
+	   border-radius:100px;
+	   border:2px solid lightseagreen;
+	  }
 .info h3{
-	      text-align:center;
-	      font-weight:bolder;
-	      border-radius:24px;
-	      box-shadow:3px 3px 3px gray;
-	      text-shadow:2px 2px 2px gray;
-	      background-color:lightseagreen;
-	      margin: auto;
-	      Color:black;
-	      }
+	   text-align:center;
+	   font-weight:bolder;
+	   border-radius:24px;
+	   box-shadow:3px 3px 3px gray;
+	   text-shadow:2px 2px 2px gray;
+	   background-color:lightseagreen;
+	   margin: auto;
+	   Color:black;
+	   }
 
 .info p{
-		  font-weight:bold;
-		  font-size: 16pt;
-	      text-align:center;color:gray;
-	     } 
+	   font-weight:bold;
+	   font-size: 16pt;
+	   text-align:center;color:gray;
+	  } 
 .logo{
-	    height:40px;width:40px;
-	    
-	} 
+	 height:40px;width:40px;
+	 
+ } 
 
 
 .newdiv {
-	     
-	      Height:200px;
-		  width:355px;  
-		  margin: 0px 500px 0px 500px
-          
-	}
+	  
+	   Height:200px;
+	   width:355px;  
+	   margin: 0px 500px 0px 500px
+	   
+ }
 .newdiv h3{
-	      Opacity:1.0;
-          font-weight:bolder;
-          Color:navy;
-          text-align:center;
-		  border-radius:30px;
-		  box-shadow: 3px 3px 3px;
-		  text-shadow: 1px 1px 3px gray;
-          background-color:#3AC4C5;
-          margin:0px;
+	   Opacity:1.0;
+	   font-weight:bolder;
+	   Color:navy;
+	   text-align:center;
+	   border-radius:30px;
+	   box-shadow: 3px 3px 3px;
+	   text-shadow: 1px 1px 3px gray;
+	   background-color:#3AC4C5;
+	   margin:0px;
 }
 
 
- 
+
 .slider{  
-	width: 50%;
-	height: 50%;
-	box-sizing: border-box;
-	box-shadow: 5px -5px 10px 5px gray;
-	margin-left: 350px;
+ width: 50%;
+ height: 50%;
+ box-sizing: border-box;
+ box-shadow: 5px -5px 10px 5px gray;
+ margin-left: 350px;
 } 
 .slider  img{
-	width:100%;
-	height: 400px;
+ width:100%;
+ height: 400px;
 }
 
 
 .bottom{
-	clear: both;
-	text-align:center;
-	background-color:#3AC4C5;
-	padding:5px;
-	color:#3A4C5C;
-	
-	} 
+ clear: both;
+ text-align:center;
+ background-color:#3AC4C5;
+ padding:5px;
+ color:#3A4C5C;
+ 
+ } 
 
 @media screen and (max-width:720px){
 
-	.head h1{
-		
-		Background-image:url("bannerf.png");
-		Background-size:cover;
-		background-repeat:no-repeat;
-		height:15%;
-		margin:0px;
-		padding:3%;
- }
+ .head h1{
+	 
+	 Background-image:url("bannerf.png");
+	 Background-size:cover;
+	 background-repeat:no-repeat;
+	 height:15%;
+	 margin:0px;
+	 padding:3%;
+}
 
 
 
 .info{
-	box-shadow:0px 3px 5px 5px gray;
-	margin:0% 15% 0% 15%;
-	
-   }
+ box-shadow:0px 3px 5px 5px gray;
+ margin:0% 15% 0% 15%;
+ 
+}
 
-   #time{
-	font-size: 30px;
-	box-shadow: 0px -3px 8px 2px gray;
-	background-color: black;
-	padding: 5px;
-	margin:0% 20% 0% 20%;
+#time{
+ font-size: 20px;
+ box-shadow: 0px -3px 8px 2px gray;
+ background-color: black;
+ padding: 5px;
+ margin:0% 20% 0% 35%;
 
 }
 
 .profile{
-	width:50%;
-	height:50%;
-	border-radius:100%;
-	
-   }
+ width:50%;
+ height:50%;
+ border-radius:100%;
+ 
+}
 
 .info h3{
 
-	margin:0% 20% 0% 20%;	
-	}
-
-
-   .newdiv {
-	     
-	Height:20%;
-	width:35%;  
-	margin:0% 20% 0% 35%;
+ margin:0% 20% 0% 20%;	
+ }
+ .info p{
+	font-weight:bold;
+	font-size: 10pt;
 	
+   } 
+
+.newdiv {
+	  
+ Height:20%;
+ width:40%;  
+ margin:0% 15% 0% 25%;
+ 
+}
+.newdiv p{
+	font-size: 10pt;
 }
 
 .slider{  
-	width: 50%;
-	height: 50%;
-	margin-left: 25%;
+ width: 50%;
+ height: 50%;
+ margin-left: 25%;
 } 
 .slider  img{
-	width:100%;
-	height: 40%;
+ width:100%;
+ height: 40%;
 }
 }
 
 
-
- 
