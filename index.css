@@ -5,7 +5,7 @@ body{
 
 .head h1{
           text-align:center;
-          Background-image:url("src/bannerf.png");
+          Background-image:url("bannerf.png");
           Background-size:cover;
 		  background-repeat:no-repeat;
 		  height:150px;
@@ -21,9 +21,6 @@ body{
 	   text-align:center;
 	   padding:50px;
 	   Background-color:#fff;
-	   Background-image:url("hd.png");
-	   Background-size:350px 80px;
-	   Background-repeat:no-repeat;
 	   margin:0px 500px 0px 500px;
 	   font-family: 'Dancing Script', cursive;
 	   
@@ -128,7 +125,6 @@ body{
 
 .info{
 	box-shadow:0px 3px 5px 5px gray;
-	Background-size:35% 80%;
 	margin:0% 15% 0% 15%;
 	
    }
@@ -143,8 +139,8 @@ body{
 }
 
 .profile{
-	width:35%;
-	height:35%;
+	width:50%;
+	height:50%;
 	border-radius:100%;
 	
    }
