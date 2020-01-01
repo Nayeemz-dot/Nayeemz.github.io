@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Home page</title>
+	<link rel="stylesheet" href="index.css">
+	<link
+		href="https://fonts.googleapis.com/css?family=Bitter|Dancing+Script|Dosis|Libre+Baskerville|Staatliches|Yeon+Sung&display=swap"
+		rel="stylesheet">
+	<script>
+		function displayTime() {
+			var ampm = "AM";
+			var date = new Date();
+			var hour = date.getHours();
+			var minute = date.getMinutes();
+			var second = date.getSeconds();
+			if (hour == 0) { hour = 12; }
+
+			if (hour > 12) { hour -= 12; ampm = "PM"; }
+
+			if (hour < 10) { hour = "0" + hour; }
+			if (minute < 10) { minute = "0" + minute; }
+			if (second < 10) { second = "0" + second; }
+
+			var time = hour + ":" + minute + ":" + second + " " + ampm;
+			document.getElementById('time').innerHTML = time;
+			setTimeout('displayTime()', 1000);
+
+		}
+	</script>
+</head>
+
+<body onload="displayTime()">
+	<div class="head">
+		<h1>Personal Blog <br /><small> </small></h1>
+	</div>
+	<br />
+	<div><span id="time"></span></div>
+
+	<br />
+	<div class="info">
+
+		<img class="profile" src="src/me.jpg" />
+		<h3>About me </h3>
+		<p>I'm Nayeem.<br /> Currently
+			I'm doing CSE <br />in
+			Metropolitan University.<br />
+			I live in Sylhet.<br />
+			My home town is Moulvibazar. </p>
+		<a href="https://nayeemz.blogspot.com/">
+			<img class="logo" src="src/bl.png" /><a>
+				<a href="https://www.facebook.com/Nayeemz6">
+					<img class="logo" src="src/fb.png" /><a>
+						<a href="https://www.instagram.com/nayeemz/">
+							<img class="logo" src="src/ig.png" /></a>
+
+
+	</div><br />
+
+
+
+	<div class="newdiv">
+		<h3>Education </h3>
+		<p><i>Shah helal high school <br />Junior school certificate - GPA 5.0<i></p>
+		<p><i>Shah helal high school <br />Secondary school certificate - GPA 4.56<i></p>
+		<p><i>Moulvibazar Govt College <br />Higher school certificate - GPA 4.60<i></p>
+	</div>
+	<div class="newdiv">
+		<h3>Project</h3>
+		<p>
+			<ul>
+				<li>Project 200- Android Application</li>
+				<li>OOP project - Java netbeans</li>
+				<li>HTML and CSS - Movies website </li>
+				<li>Food and Groceries Online shop Website</li>
+			</ul>
+		</p>
+	</div>
+	<div class="newdiv">
+		<h3>Key Skill</h3>
+		<p>
+			<ul>
+				<li>Programming - Java, C, MYSQL</li>
+				<li>IT- Adobe Photoshop,Adobe Illustrator, MsExcel,
+					Microsoft word, Basic HTML and CSS</li>
+				<li>Language - Fluent both Bangla and English (written and verbal)</li>
+			</ul>
+		</p>
+	</div>
+	<div class="newdiv">
+		<h3>Interest</h3>
+		<ul><i>
+				<li>Watching Netflix </li>
+				<li>Listening Music </li>
+				<li>Playing Chess and cards </li>
+				<li>Swimming</li>
+				<li>Internet </li>
+			</i> </ul>
+	</div>
+
+
+
+	<div class="slider">
+		<div class="img fade">
+			<img src="src/img1.jpg" />
+		</div>
+		<div class="img fade">
+			<img src="src/img2.jpg" />
+		</div>
+		<div class="img fade">
+			<img src="src/img3.jpg" />
+		</div>
+		<div class="img fade">
+			<img src="src/img4.jpg" />
+		</div>
+
+	</div>
+	</div>
+
+	<div class="bottom">
+		<h2>©Copyright 2019</h2>
+		<p>Privacy policy <br />
+			Cookies <br />About
+		</p>
+	</div>
+
+
+	<script>
+		var slideIndex = 0;
+		slideShow()
+		function slideShow() {
+			var i;
+			var s = document.getElementsByClassName("img");
+			for (i = 0; i < s.length; i++) {
+				s[i].style.display = "none";
+			}
+			slideIndex++;
+			if (slideIndex > s.length) {
+				slideIndex = 1
+			}
+			s[slideIndex - 1].style.display = "block";
+			setTimeout(slideShow, 2000);
+		}
+	</script>
+</body>
+
+</html>
